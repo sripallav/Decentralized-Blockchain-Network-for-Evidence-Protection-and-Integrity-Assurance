@@ -480,4 +480,4 @@ function FormatDate(pDate)
 	else if (this.Format.toUpperCase()=="MMMDDYYYY")
 		return (this.GetMonthName(false)+DateSeparator+pDate+DateSeparator+this.Year);			
 }
-Calendar.prototype.FormatDate=FormatDate;	
+Calendar.prototype.FormatDate=FormatDate;
