@@ -27,7 +27,7 @@ A blockchain-based evidence management web application built with **Python (Flas
 
 ## Setup & Run Locally
 1. Start **Ganache** on `127.0.0.1:8545`.
-2. Deploy the smart contract using Truffle:
+2. Deploy the smart contract (`Solidity 0.5.1`) using Truffle:
    ```bash
    truffle migrate --reset
    ```
